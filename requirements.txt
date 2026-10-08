@@ -12,6 +12,7 @@ python-dotenv
 # RAG pipeline
 pypdf
 numpy
+pandas
 faiss-cpu
 langchain-core
 langchain-text-splitters
