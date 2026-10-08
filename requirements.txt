@@ -13,7 +13,6 @@ python-dotenv
 pypdf
 numpy
 faiss-cpu
-sentence-transformers
 langchain-core
 langchain-text-splitters
 langchain-google-genai
