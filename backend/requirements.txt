@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+python-multipart
+PyJWT
+python-dotenv
+
+pypdf
+numpy
+faiss-cpu
+langchain-core
+langchain-text-splitters
+langchain-google-genai
+
+gTTS
+SpeechRecognition
+google-genai
