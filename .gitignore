@@ -1,0 +1,26 @@
+# Virtual environment
+venv/
+.venv/
+
+# Secrets
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Runtime data (created automatically)
+data/
+vector_store/
+uploads/
+chroma_db/
+*.db
+
+# Archives
+*.zip

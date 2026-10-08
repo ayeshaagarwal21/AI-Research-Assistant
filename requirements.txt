@@ -1,0 +1,28 @@
+# Direct dependencies only (pip pulls in the rest).
+# Tip: once everything works on your machine, run `pip freeze > requirements-lock.txt`
+# if you also want an exact snapshot of versions.
+
+# Backend
+fastapi
+uvicorn[standard]
+python-multipart
+PyJWT
+python-dotenv
+
+# RAG pipeline
+pypdf
+numpy
+faiss-cpu
+sentence-transformers
+langchain-core
+langchain-text-splitters
+langchain-google-genai
+
+# Voice and images
+gTTS
+SpeechRecognition
+google-genai
+
+# Frontend
+streamlit>=1.52  # 1.52+ adds the mic button inside the chat box
+requests
